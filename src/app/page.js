@@ -1,10 +1,8 @@
-import { Main } from 'next/document'
-import React from 'react'
-
+import Hero from "../home-page/hero";
 export default function page() {
   return (
-    <main>Home
-      
+    <main>
+     <Hero />
     </main>
   )
 }

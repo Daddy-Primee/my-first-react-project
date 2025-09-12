@@ -1,5 +1,7 @@
 import { Ojuju } from "next/font/google";
+import Navbar from "@/components/navigation/navbar";
 import "./globals.css";
+import Footer from "@/components/navigation/footer";
 
 const ojuju = Ojuju({
   variable: "--font-ojuju",
@@ -16,9 +18,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${Ojuju.className}  antialiased`}
+        className={`${ojuju.className}  antialiased`}
       >
+        <Navbar />
         {children}
+        <Footer />
+
       </body>
     </html>
   );
