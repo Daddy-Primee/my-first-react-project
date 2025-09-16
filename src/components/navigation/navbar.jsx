@@ -9,7 +9,7 @@ export default function Navbar() {
     <header className="bg-[#30232d] shadow-md">
      <MaxWidthContainer className="flex md:justify-between items-center text-[#FAE9D7]  py-8">
         <Link href={"/"}> 
-            <h1 className="text-5xl font-bold">JobHub</h1>
+            <h1 className="text-6xl font-bold">JobHub</h1>
         </Link>
           <nav>
             <ul className="flex md:gap-8 text-lg font-extrabold ">
