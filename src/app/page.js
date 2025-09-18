@@ -1,5 +1,6 @@
 import Hero from "../home-page/hero";
 import StatsSection from "@/home-page/statsSection";
+import FeaturedJobs from "@/home-page/featuredJobs";
 
 
 export default function page() {
@@ -7,6 +8,7 @@ export default function page() {
     <main>
      <Hero />
       <StatsSection />
+      <FeaturedJobs />
     
     </main>
   )
