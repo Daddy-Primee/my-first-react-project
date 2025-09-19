@@ -11,7 +11,7 @@ export default function Hero() {
         <h1 className="text-7xl font-extrabold mb-4">Find the right job, faster</h1>
         <p className="text-3xl mb-8">Connect with trusted employers and start building your career today.</p>
         <Button className="bg-[#D55053] text-[#FAE9D7] py-6 rounded-md font-bold hover:bg-[#f1c095] transition">
-            Get Started
+            Browse Jobs
         </Button>
         </div>
         <div>

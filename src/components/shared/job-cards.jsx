@@ -1,12 +1,11 @@
 import React from "react";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
-export default function JobCards({job}) {
+export default function JobCards({ job }) {
   return (
-    <div
-      className="border border-gray-300 rounded-lg p-6 hover:shadow-md transition"
-    >
-      <h2 className="text-3xl font-bold mb-2 text-[#30232d]">{job.title}</h2>
+    <div className="border border-gray-300 rounded-lg p-6 hover:shadow-md transition">
+      <h2 className="text-xl font-bold mb-2 text-[#30232d]">{job.title}</h2>
       <p className="text-gray-600 mb-1">
         {job.company} - {job.location}
       </p>
@@ -23,9 +22,17 @@ export default function JobCards({job}) {
         ))}
       </div>
       <div className="flex justify-end">
-        <Button className="text-[#FAE9D7] px-5 py-3 rounded-md font-bold bg-[#D55053] transition">
-            Apply
-        </Button>
+        <Link
+          href={`/browse-jobs/${job.title
+            .toLowerCase()
+            .replace(/[\s/]+/g, "-")}-${job.company
+            .toLowerCase()
+            .replace(/\s+/g, "-")}-${job.id}`}
+        >
+          <Button className="text-[#FAE9D7] px-5 py-3 rounded-md font-bold bg-[#D55053] transition">
+            View Details
+          </Button>
+        </Link>
       </div>
     </div>
   );

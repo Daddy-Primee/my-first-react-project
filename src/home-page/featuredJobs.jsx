@@ -1,6 +1,6 @@
 import JobCards from "@/components/shared/job-cards";
 import React from "react";
-
+import { Icon } from "lucide-react";
 const Featured_Jobs = [
   {
     id: 1,
@@ -76,7 +76,7 @@ export default function FeaturedJobs() {
       <div className="conatiner mx-auto p-4">
         <div className="grid  grid-cols-1 md:grid-cols-3 gap-6">
           {Featured_Jobs.map((job) => (
-            <JobCards key={job.id} job={job} />
+            <JobCards key={job.id} job={job}/>
           ))}
         </div>
       </div>

@@ -1,26 +1,81 @@
-import Navbar from "@/components/navigation/navbar";
-import Footer from "@/components/navigation/footer";
+"use client";
 import MaxWidthContainer from "@/components/shared/max-width-container";
+import { useState } from "react";
 import { Jobs } from "@/constants/jobs";
 import JobCards from "@/components/shared/job-cards";
 
 export default function BrowseJobs() {
-  return (
+  const [currentPage, setCurrentPage] = useState(1);
+  const jobsPerPage = 10;
+
+  // Calculate total pages
+  const totalPages = Math.ceil(Jobs.length / jobsPerPage);
+
+  // Find start and end index
+  const startIndex = (currentPage - 1) * jobsPerPage;
+  const endIndex = startIndex + jobsPerPage;
+
+  // Slice jobs for current page
+  const currentJobs = Jobs.slice(startIndex, endIndex);
+  
+    return (
     <div>
       <main className="min-h-screen  text-[#30232d] py-20">
         <h1 className="text-6xl font-extrabold mb-6 text-center">
           Browse Jobs
         </h1>
         <p className="text-lg mb-4 max-w-3xl mx-auto text-center">
-          Explore a wide range of job opportunities from top companies
-          worldwide. Use our advanced search filters to find the perfect job
-          that matches your skills and career goals.
+          Explore thousands of opportunities across different industries.
+          Whether you are looking for tech, healthcare, business, or creative
+          roles, find the right career path that matches your skills and
+          passion.
         </p>
 
-        <div className="flex flex-wrap gap-6 justify-center mt-10 px-5">
-            {Jobs.map((job) => (
+        <div className="grid xl:grid-cols-4 md:grid-cols-3 gap-6 justify-center mt-10 px-8">
+          {currentJobs.map((job) => (
             <JobCards job={job} key={job.id} />
+          ))}
+        </div>
+
+          <div>
+            
+          </div>
+
+        <div className="flex justify-center mt-10 gap-4">
+          <button
+            onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
+            disabled={currentPage === 1}
+            className="px-4 py-2 rounded bg-gray-200 hover:bg-gray-300 disabled:opacity-50"
+          >
+            Previous
+          </button>
+
+          {/* Page Numbers */}
+          <div className="flex items-center gap-2">
+            {Array.from({ length: totalPages }, (_, i) => (
+              <button
+                key={i + 1}
+                onClick={() => setCurrentPage(i + 1)}
+                className={`px-3 py-1 rounded ${
+                  currentPage === i + 1
+                    ? "bg-blue-600 text-white"
+                    : "bg-gray-200 hover:bg-gray-300"
+                }`}
+              >
+                {i + 1}
+              </button>
             ))}
+          </div>
+
+          <button
+            onClick={() =>
+              setCurrentPage((prev) => Math.min(prev + 1, totalPages))
+            }
+            disabled={currentPage === totalPages}
+            className="px-4 py-2 rounded bg-gray-200 hover:bg-gray-300 disabled:opacity-50"
+          >
+            Next
+          </button>
         </div>
       </main>
     </div>
