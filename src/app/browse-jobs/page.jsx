@@ -58,7 +58,7 @@ export default function BrowseJobs() {
                 onClick={() => setCurrentPage(i + 1)}
                 className={`px-3 py-1 rounded ${
                   currentPage === i + 1
-                    ? "bg-blue-600 text-white"
+                    ? "bg-[#D55053] text-white"
                     : "bg-gray-200 hover:bg-gray-300"
                 }`}
               >

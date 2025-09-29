@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "../ui/button";
 import Link from "next/link";
 
+
 export default function JobCards({ job }) {
   return (
     <div className="border border-gray-300 rounded-lg p-6 hover:shadow-md transition">
@@ -29,7 +30,7 @@ export default function JobCards({ job }) {
             .toLowerCase()
             .replace(/\s+/g, "-")}-${job.id}`}
         >
-          <Button className="text-[#FAE9D7] px-5 py-3 rounded-md font-bold bg-[#D55053] transition">
+          <Button className="text-[#FAE9D7] px-5 py-3 rounded-md font-bold bg-[#D55053] transition hover:bg-[#f1c095]">
             View Details
           </Button>
         </Link>
