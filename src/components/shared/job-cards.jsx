@@ -11,7 +11,7 @@ export default function JobCards({ job }) {
         {job.company} - {job.location}
       </p>
       <p className="text-gray-600 mb-1">{job.salary}</p>
-      <p className="text-gray-700 mb-4">{job.description}</p>
+      <p className="text-gray-700 mb-4 text-sm flex-grow">{job.description}</p>
       <div className="mb-4">
         {job.tags.map((tag, index) => (
           <span
@@ -30,9 +30,11 @@ export default function JobCards({ job }) {
             .toLowerCase()
             .replace(/\s+/g, "-")}-${job.id}`}
         >
+          <div className="mt-auto">
           <Button className="text-[#FAE9D7] px-5 py-3 rounded-md font-bold bg-[#D55053] transition hover:bg-[#f1c095]">
             View Details
           </Button>
+          </div>
         </Link>
       </div>
     </div>

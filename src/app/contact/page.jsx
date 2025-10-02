@@ -6,21 +6,22 @@ export default function Contact() {
   return (
     <div className="max-w-4xl mx-auto px-6 py-12">
       <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-8 space-y-8">
-        
-     
         <div className="text-center">
-          <h1 className="text-3xl font-bold text-gray-900 dark:text-white">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 dark:text-white">
             Contact Us
           </h1>
-          <p className="text-gray-600 dark:text-gray-400 mt-2">
-            We’d love to hear from you! Fill out the form below or reach out directly.
+          <p className="text-sm sm:text-base md:text-lg text-gray-600 dark:text-gray-400 mt-2">
+            We’d love to hear from you! Fill out the form below or reach out
+            directly.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
-          
-         
-          <form className="space-y-4">
+        <div className="grid  grid-cols-1 md:grid-cols-2 gap-8">
+          <form
+            action="https://formsubmit.co/festusemmanuel737@gmail.com"
+            method="POST"
+            className="space-y-4"
+          >
             <div>
               <label className="block text-sm font-medium text-gray-700 dark:text-gray-300">
                 Full Name
@@ -54,31 +55,42 @@ export default function Contact() {
               />
             </div>
 
-            <button
-              type="submit"
-              className="w-full bg-[#D55053] text-white font-medium py-3 rounded-lg hover:bg-pink-700 transition mx-auto"
-            >
-              Send Message
-            </button>
+            <div className=" flex justify-end">
+              <button
+                type="submit"
+                className=" bg-[#D55053] text-white font-medium py-3 px-8 rounded-lg hover:bg-pink-700 transition "
+              >
+                Send Message
+              </button>
+            </div>
           </form>
 
-        
           <div className="space-y-6">
             <div>
-              <h2 className="text-lg font-semibold text-gray-900 dark:text-white">Our Office</h2>
+              <h2 className="text-lg font-semibold text-gray-900 dark:text-white">
+                Our Office
+              </h2>
               <p className="text-gray-600 dark:text-gray-400">
-               234 JobHub St, Lagos, Nigeria
+                234 JobHub St, Lagos, Nigeria
               </p>
             </div>
 
             <div>
-              <h2 className="text-lg font-semibold text-gray-900 dark:text-white">Email</h2>
-              <p className="text-gray-600 dark:text-gray-400">jobhub@gmail.com</p>
+              <h2 className="text-lg font-semibold text-gray-900 dark:text-white">
+                Email
+              </h2>
+              <p className="text-gray-600 dark:text-gray-400">
+                jobhub@gmail.com
+              </p>
             </div>
 
             <div>
-              <h2 className="text-lg font-semibold text-gray-900 dark:text-white">Phone</h2>
-              <p className="text-gray-600 dark:text-gray-400">+234 800 123 4567</p>
+              <h2 className="text-lg font-semibold text-gray-900 dark:text-white">
+                Phone
+              </h2>
+              <p className="text-gray-600 dark:text-gray-400">
+                +234 800 123 4567
+              </p>
             </div>
           </div>
         </div>

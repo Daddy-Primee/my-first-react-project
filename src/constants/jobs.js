@@ -18,7 +18,7 @@ export const Jobs = [
     "Strong communication and teamwork abilities."
   ],
   tags: ["Full-time", "Mid-level"],
-  icon: <Code />,
+  category: "Technology",
 },
 
 {
@@ -38,7 +38,8 @@ export const Jobs = [
     "Strong visual design skills and attention to detail.",
     "Excellent communication and collaboration skills."
   ],
-  tags: ["Contract", "Senior"]
+  tags: ["Contract", "Senior"],
+  category: "Technology",
 }
 ,
    {
@@ -58,7 +59,8 @@ export const Jobs = [
     "Good communication skills to present findings effectively.",
     "Attention to detail and commitment to data accuracy."
   ],
-  tags: ["Full-time", "Entry-level"]
+  tags: ["Full-time", "Entry-level"],
+  category: "Technology",
 },
 {
   id: 4,
@@ -77,7 +79,8 @@ export const Jobs = [
     "Strong communication and stakeholder management skills.",
     "Project Management certification (PMP or PRINCE2) is an advantage."
   ],
-  tags: ["Full-time", "Mid-level"]
+  tags: ["Full-time", "Mid-level"],
+  category: "Business",
 },
 {
   id: 5,
@@ -96,7 +99,8 @@ export const Jobs = [
     "Excellent communication and collaboration skills.",
     "Ability to manage time and handle multiple projects."
   ],
-  tags: ["Part-time", "Mid-level"]
+  tags: ["Part-time", "Mid-level"],
+  category: "Business",
 },
 
 {
@@ -116,7 +120,8 @@ export const Jobs = [
     "Strong time-management and organizational skills.",
     "Portfolio of published work is an advantage."
   ],
-  tags: ["Freelance", "Entry-level"]
+  tags: ["Freelance", "Entry-level"],
+  category: "Technology",
 },
 {
   id: 9,
@@ -135,7 +140,8 @@ export const Jobs = [
     "Good understanding of customer relationship management (CRM) tools.",
     "Proven track record of achieving sales targets."
   ],
-  tags: ["Full-time", "Mid-level"]
+  tags: ["Full-time", "Mid-level"],
+  category: "Business",
 },
 {
   id: 10,
@@ -154,7 +160,8 @@ export const Jobs = [
     "Good communication and interpersonal skills.",
     "HR certification is an added advantage."
   ],
-  tags: ["Full-time", "Mid-level"]
+  tags: ["Full-time", "Mid-level"],
+  category: "Business",
 },
 {
   id: 11,
@@ -173,7 +180,8 @@ export const Jobs = [
     "Passion for education and student development.",
     "Relevant teaching certification is required."
   ],
-  tags: ["Full-time", "Mid-level"]
+  tags: ["Full-time", "Mid-level"],
+  category: "Education",
 },
 {
   id: 12,
@@ -192,12 +200,13 @@ export const Jobs = [
     "Commitment to academic excellence and continuous learning.",
     "Experience with online teaching platforms is an advantage."
   ],
-  tags: ["Full-time", "Senior"]
+  tags: ["Full-time", "Senior"],
+  category: "Education",
 },
 
 {
   id: 8,
-  title: "Content Writer",
+  title: "Social Media Writer",
   company: "Creative Minds",
   location: "Remote",
   salary: "#100,000 - #250,000",
@@ -212,7 +221,8 @@ export const Jobs = [
     "Strong time-management and organizational skills.",
     "Portfolio of published work is an advantage."
   ],
-  tags: ["Freelance", "Entry-level"]
+  tags: ["Freelance", "Entry-level"],
+  category:"Technology",
 },
 {
   id: 9,
@@ -231,7 +241,8 @@ export const Jobs = [
     "Good understanding of customer relationship management (CRM) tools.",
     "Proven track record of achieving sales targets."
   ],
-  tags: ["Full-time", "Mid-level"]
+  tags: ["Full-time", "Mid-level"],
+  category:"Business",
 },
 {
   id: 10,
@@ -250,7 +261,8 @@ export const Jobs = [
     "Good communication and interpersonal skills.",
     "HR certification is an added advantage."
   ],
-  tags: ["Full-time", "Mid-level"]
+  tags: ["Full-time", "Mid-level"],
+  category:"Business",
 },
 {
   id: 11,
@@ -269,7 +281,8 @@ export const Jobs = [
     "Passion for education and student development.",
     "Relevant teaching certification is required."
   ],
-  tags: ["Full-time", "Mid-level"]
+  tags: ["Full-time", "Mid-level"],
+  category:"Education",
 },
 {
   id: 12,
@@ -288,7 +301,8 @@ export const Jobs = [
     "Commitment to academic excellence and continuous learning.",
     "Experience with online teaching platforms is an advantage."
   ],
-  tags: ["Full-time", "Senior"]
+  tags: ["Full-time", "Senior"],
+  category:"Education"
 },
 
  {
@@ -308,7 +322,8 @@ export const Jobs = [
     "Excellent communication and decision-making abilities.",
     "Ability to work under pressure and meet deadlines."
   ],
-  tags: ["Full-time", "Senior"]
+  tags: ["Full-time", "Senior"],
+  category:"Business"
 },
 {
   id: 14,
@@ -327,7 +342,8 @@ export const Jobs = [
     "Good communication and negotiation skills.",
     "Attention to detail and ability to work with large datasets."
   ],
-  tags: ["Full-time", "Mid-level"]
+  tags: ["Full-time", "Mid-level"],
+  category:"Business"
 },
 {
   id: 15,
@@ -346,7 +362,8 @@ export const Jobs = [
     "Strong problem-solving abilities.",
     "Customer-first attitude with empathy and patience."
   ],
-  tags: ["Full-time", "Entry-level"]
+  tags: ["Full-time", "Entry-level"],
+  category:"Business"
 },
 {
   id: 16,
@@ -365,7 +382,8 @@ export const Jobs = [
     "Good communication and creativity skills.",
     "Familiarity with online advertising tools like Google Ads or Facebook Ads."
   ],
-  tags: ["Remote", "Mid-level"]
+  tags: ["Remote", "Mid-level"],
+  categories:"Technology"
 },
 {
   id: 17,
@@ -384,7 +402,8 @@ export const Jobs = [
     "Good communication and teamwork skills.",
     "Ability to meet deadlines and handle multiple projects."
   ],
-  tags: ["Full-time", "Entry-level"]
+  tags: ["Full-time", "Entry-level"],
+  categories:"Technology"
 },
 {
   id: 18,
@@ -403,7 +422,8 @@ export const Jobs = [
     "Good understanding of media ethics and accuracy.",
     "Portfolio of published articles is an advantage."
   ],
-  tags: ["Full-time", "Mid-level"]
+  tags: ["Full-time", "Mid-level"],
+  categories:"Technology"
 },
 {
   id: 19,
@@ -422,7 +442,8 @@ export const Jobs = [
     "Excellent analytical and problem-solving abilities.",
     "Strong communication and presentation skills."
   ],
-  tags: ["Full-time", "Mid-level"]
+  tags: ["Full-time", "Mid-level"],
+  categories:"Human-Resources"
 },
 {
   id: 20,
@@ -441,7 +462,8 @@ export const Jobs = [
     "Good communication and stakeholder management skills.",
     "Project Management certification is an advantage."
   ],
-  tags: ["Full-time", "Senior"]
+  tags: ["Full-time", "Senior"],
+  categories:"Business"
 },
 {
   id: 21,
@@ -460,7 +482,8 @@ export const Jobs = [
     "Strong communication and teamwork abilities.",
     "Membership of COREN or relevant professional body is an advantage."
   ],
-  tags: ["Full-time", "Mid-level"]
+  tags: ["Full-time", "Mid-level"],
+  categories:"Engineering"
 },
 {
   id: 22,
@@ -479,7 +502,8 @@ export const Jobs = [
     "Strong teamwork and communication abilities.",
     "Membership of relevant engineering professional body is an advantage."
   ],
-  tags: ["Full-time", "Mid-level"]
+  tags: ["Full-time", "Mid-level"],
+  categories:"Engineering"
 },
 {
   id: 23,
@@ -498,7 +522,8 @@ export const Jobs = [
     "Strong communication and teamwork skills.",
     "Membership of COREN or relevant engineering body is an advantage."
   ],
-  tags: ["Full-time", "Mid-level"]
+  tags: ["Full-time", "Mid-level"],
+  categories:"Engineering"
 },
 {
   id: 24,
@@ -517,7 +542,8 @@ export const Jobs = [
     "Knowledge of safety regulations and compliance.",
     "Proficiency in warehouse management systems is an advantage."
   ],
-  tags: ["Full-time", "Mid-level"]
+  tags: ["Full-time", "Mid-level"],
+  categories:"Human-Resources"
 },
 {
   id: 25,
@@ -536,7 +562,8 @@ export const Jobs = [
     "Physical fitness to handle goods where necessary.",
     "Basic vehicle maintenance knowledge."
   ],
-  tags: ["Full-time", "Entry-level"]
+  tags: ["Full-time", "Entry-level"],
+  categories:"Business"
 },
 {
   id: 26,
@@ -555,7 +582,8 @@ export const Jobs = [
     "Honesty and integrity.",
     "Basic knowledge of surveillance systems is an advantage."
   ],
-  tags: ["Full-time", "Entry-level"]
+  tags: ["Full-time", "Entry-level"],
+  categories:"Business"
 },
 {
   id: 27,
@@ -574,7 +602,8 @@ export const Jobs = [
     "Passion for cooking and attention to detail.",
     "Culinary certification is an advantage."
   ],
-  tags: ["Full-time", "Mid-level"]
+  tags: ["Full-time", "Mid-level"],
+  categories:"Human-Resources"
 },
 {
   id: 28,
@@ -593,7 +622,8 @@ export const Jobs = [
     "Problem-solving and decision-making skills.",
     "Flexibility to work in a fast-paced environment."
   ],
-  tags: ["Full-time", "Senior"]
+  tags: ["Full-time", "Senior"],
+  categories:"Human-Resources"
 },
 {
   id: 29,
@@ -612,7 +642,8 @@ export const Jobs = [
     "Ability to work independently and in teams.",
     "Proficiency in using CRM software is an advantage."
   ],
-  tags: ["Full-time", "Mid-level"]
+  tags: ["Full-time", "Mid-level"],
+  categories:"Business"
 },
 {
   id: 30,
@@ -631,7 +662,8 @@ export const Jobs = [
     "Ability to manage inventory and budgets.",
     "Flexibility to work weekends and holidays."
   ],
-  tags: ["Full-time", "Mid-level"]
+  tags: ["Full-time", "Mid-level"],
+  categories:"Business"
 },
 {
   id: 31,
@@ -650,7 +682,8 @@ export const Jobs = [
     "Attention to detail and critical thinking.",
     "Familiarity with laboratory safety standards."
   ],
-  tags: ["Full-time", "Senior"]
+  tags: ["Full-time", "Senior"],
+  categories:"Technology"
 },
 {
   id: 32,
@@ -669,7 +702,8 @@ export const Jobs = [
     "Ability to work under pressure and meet deadlines.",
     "Strong communication and client relationship skills."
   ],
-  tags: ["Full-time", "Mid-level"]
+  tags: ["Full-time", "Mid-level"],
+  categories:"Marketing"
 },
 {
   id: 33,
@@ -688,7 +722,8 @@ export const Jobs = [
     "Physical fitness and stamina.",
     "CPR/First Aid certification is an advantage."
   ],
-  tags: ["Full-time", "Entry-level"]
+  tags: ["Full-time", "Entry-level"],
+  categories:"Business"
 },
 {
   id: 34,
@@ -707,7 +742,8 @@ export const Jobs = [
     "Attention to detail and accuracy.",
     "Ability to manage prescriptions and inventory."
   ],
-  tags: ["Full-time", "Mid-level"]
+  tags: ["Full-time", "Mid-level"],
+  categories:"Health-Care"
 },
 {
   id: 35,
@@ -726,7 +762,8 @@ export const Jobs = [
     "Good communication and teamwork skills.",
     "Attention to detail and record-keeping abilities."
   ],
-  tags: ["Full-time", "Entry-level"]
+  tags: ["Full-time", "Entry-level"],
+  categories:"Health-Care"
 },
 {
   id: 36,
@@ -745,7 +782,8 @@ export const Jobs = [
     "Good communication and teamwork skills.",
     "Ability to work under pressure in fast-paced settings."
   ],
-  tags: ["Full-time", "Senior"]
+  tags: ["Full-time", "Senior"],
+  categories:"Health-Care"
 },
 {
   id: 37,
@@ -764,7 +802,8 @@ export const Jobs = [
     "Attention to detail and precision.",
     "Ability to manage dental assistants and staff."
   ],
-  tags: ["Full-time", "Mid-level"]
+  tags: ["Full-time", "Mid-level"],
+  categories:"Health-Care"
 },
 {
   id: 38,
@@ -783,7 +822,8 @@ export const Jobs = [
     "Patience and dedication to student growth.",
     "Ability to adapt teaching methods to diverse learners."
   ],
-  tags: ["Full-time", "Entry-level"]
+  tags: ["Full-time", "Entry-level"],
+  categories:"Education"
 },
 {
   id: 39,
@@ -802,7 +842,8 @@ export const Jobs = [
     "Commitment to academic excellence and development.",
     "Ability to contribute to departmental administration."
   ],
-  tags: ["Full-time", "Senior"]
+  tags: ["Full-time", "Senior"],
+  categories:"Education"
 },
 {
   id: 40,
@@ -821,7 +862,8 @@ export const Jobs = [
     "Ability to meet sales targets and deadlines.",
     "Knowledge of CRM tools is an advantage."
   ],
-  tags: ["Full-time", "Mid-level"]
+  tags: ["Full-time", "Mid-level"],
+  categories:"Human-Resources"
 },
 {
   id: 41,
@@ -840,7 +882,8 @@ export const Jobs = [
     "Strong attention to detail and storytelling ability.",
     "Ability to work under tight deadlines."
   ],
-  tags: ["Full-time", "Entry-level"]
+  tags: ["Full-time", "Entry-level"],
+  categories:"Technology"
 },
 {
   id: 42,
@@ -859,7 +902,8 @@ export const Jobs = [
     "Ability to work under deadlines and pressure.",
     "Flexibility to travel for shoots if required."
   ],
-  tags: ["Full-time", "Mid-level"]
+  tags: ["Full-time", "Mid-level"],
+  categories:"Technology"
 },
 {
   id: 43,
@@ -878,7 +922,8 @@ export const Jobs = [
     "Ability to work under deadlines and adapt to client needs.",
     "Portfolio of previous work is required."
   ],
-  tags: ["Full-time", "Entry-level"]
+  tags: ["Full-time", "Entry-level"],
+  categories:"Technology"
 },
 {
   id: 44,
@@ -897,7 +942,8 @@ export const Jobs = [
     "Problem-solving and conflict-resolution abilities.",
     "HR certification (CIPM, SHRM) is an advantage."
   ],
-  tags: ["Full-time", "Senior"]
+  tags: ["Full-time", "Senior"],
+  categories:"Human-Resources"
 },
 {
   id: 45,
@@ -916,7 +962,8 @@ export const Jobs = [
     "Good organizational and multitasking skills.",
     "Relevant IT certifications are an advantage."
   ],
-  tags: ["Full-time", "Entry-level"]
+  tags: ["Full-time", "Entry-level"],
+  categories:"Technology"
 },
 {
   id: 46,
@@ -935,7 +982,8 @@ export const Jobs = [
     "Ability to work independently and as part of a team.",
     "Portfolio of developed websites is required."
   ],
-  tags: ["Remote", "Mid-level"]
+  tags: ["Remote", "Mid-level"],
+  categories:"Technology"
 },
 {
   id: 47,
@@ -954,7 +1002,8 @@ export const Jobs = [
     "Attention to detail and accuracy.",
     "Knowledge of Python or R for data analysis is an advantage."
   ],
-  tags: ["Full-time", "Mid-level"]
+  tags: ["Full-time", "Mid-level"],
+  categories:"Technology"
 },
 {
   id: 48,
@@ -973,7 +1022,8 @@ export const Jobs = [
     "Good communication and collaboration skills.",
     "Attention to detail and creativity."
   ],
-  tags: ["Remote", "Mid-level"]
+  tags: ["Remote", "Mid-level"],
+  categories:"Technology"
 },
 {
   id: 49,
@@ -992,7 +1042,8 @@ export const Jobs = [
     "Good communication and teamwork abilities.",
     "Relevant cybersecurity certifications (CEH, CISSP, CompTIA Security+) are an advantage."
   ],
-  tags: ["Full-time", "Mid-level"]
+  tags: ["Full-time", "Mid-level"],
+  categories:"Technology"
 },
 {
   id: 50,
@@ -1011,7 +1062,8 @@ export const Jobs = [
     "Strong problem-solving and debugging skills.",
     "Ability to work in remote, collaborative teams."
   ],
-  tags: ["Remote", "Senior"]
+  tags: ["Remote", "Senior"],
+  categories:"Technology"
 },
 
 

@@ -4,33 +4,62 @@ import { useState } from "react";
 import { Jobs } from "@/constants/jobs";
 import JobCards from "@/components/shared/job-cards";
 
+
+ const categories =["All", "Technology", "Human-Resources", "Health-Care", "Business", "Education", "Engineering"]
+
 export default function BrowseJobs() {
   const [currentPage, setCurrentPage] = useState(1);
-  const jobsPerPage = 10;
+  const jobsPerPage = 10; 
+  const [selectedCategory, setSelectedCategory] = useState("All")
+
+
+  const filteredJobs =
+   selectedCategory === "All"
+   ? Jobs
+   : Jobs.filter((job) => job.categories === selectedCategory);
+ 
 
   // Calculate total pages
-  const totalPages = Math.ceil(Jobs.length / jobsPerPage);
+  const totalPages = Math.ceil(filteredJobs.length / jobsPerPage);
 
   // Find start and end index
   const startIndex = (currentPage - 1) * jobsPerPage;
   const endIndex = startIndex + jobsPerPage;
 
   // Slice jobs for current page
-  const currentJobs = Jobs.slice(startIndex, endIndex);
+  const currentJobs = filteredJobs.slice(startIndex, endIndex);
   
     return (
     <div>
       <main className="min-h-screen  text-[#30232d] py-20">
-        <h1 className="text-6xl font-extrabold mb-6 text-center">
+        <h1 className="text-3xl md:text-5xl font-extrabold mb-6 text-center">
           Browse Jobs
         </h1>
-        <p className="text-lg mb-4 max-w-3xl mx-auto text-center">
+        <p className="text-base sm:text-4xl md:text-xl mb-4 max-w-3xl mx-auto text-center">
           Explore thousands of opportunities across different industries.
           Whether you are looking for tech, healthcare, business, or creative
           roles, find the right career path that matches your skills and
           passion.
         </p>
-
+          <div className="flex flex-wrap justify-center gap-3 mb-8">
+          {categories.map((cat) => (
+            <button
+              key={cat}
+              onClick={() => {
+                setSelectedCategory(cat);
+                setCurrentPage(1); // reset to page 1
+              }}
+              className={`px-4 py-2 rounded-full font-semibold ${
+                selectedCategory === cat
+                  ? "bg-[#D55053] text-white"
+                  : "bg-gray-200 hover:bg-gray-300"
+              }`}
+            >
+              {cat}
+            </button>
+          ))}
+        </div>
+        
         <div className="grid xl:grid-cols-4 md:grid-cols-3 gap-6 justify-center mt-10 px-8">
           {currentJobs.map((job) => (
             <JobCards job={job} key={job.id} />
@@ -51,7 +80,7 @@ export default function BrowseJobs() {
           </button>
 
           {/* Page Numbers */}
-          <div className="flex items-center gap-2">
+          <div className="flex flex-wrap items-center gap-2">
             {Array.from({ length: totalPages }, (_, i) => (
               <button
                 key={i + 1}

@@ -64,19 +64,19 @@ const Featured_Jobs = [
 
 export default function FeaturedJobs() {
   return (
-    <div>
-      <h1 className="text-6xl font-black text-[#30232d]  text-center mt-25 ">
+    <div className="py-16 px-4 ">
+      <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-[#30232d]  text-center mt-25 ">
         Featured Jobs
       </h1>
-      <p className="text-1.5xl text-gray-600 max-w-xl mx-auto mt-3  mb-12 text-center px-4">
+      <p className="text-lg md:text-xl  text-gray-600 max-w-xl mx-auto mt-3  mb-12 text-center px-4">
         Discover handpicked opportunities from top companies looking for
         talented professionals like you.
       </p>
 
       <div className="conatiner mx-auto p-4">
-        <div className="grid  grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3 gap-6">
           {Featured_Jobs.map((job) => (
-            <JobCards key={job.id} job={job}/>
+            <JobCards key={job.id} job={job} />
           ))}
         </div>
       </div>
