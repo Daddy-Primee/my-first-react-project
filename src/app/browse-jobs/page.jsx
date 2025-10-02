@@ -35,7 +35,7 @@ export default function BrowseJobs() {
         <h1 className="text-3xl md:text-5xl font-extrabold mb-6 text-center">
           Browse Jobs
         </h1>
-        <p className="text-base sm:text-4xl md:text-xl mb-4 max-w-3xl mx-auto text-center">
+        <p className="text-base sm:text-4xl md:text-lg lg:text-xl xl:text-2xl mb-4 max-w-3xl mx-auto text-center">
           Explore thousands of opportunities across different industries.
           Whether you are looking for tech, healthcare, business, or creative
           roles, find the right career path that matches your skills and

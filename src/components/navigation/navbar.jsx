@@ -10,18 +10,12 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <header className="bg-[#30232d] shadow-md">
-      <MaxWidthContainer className="flex md:justify-between items-center text-[#FAE9D7]  py-10">
-        <div className="flex items-center gap-6">
-         <button
-          className="md:hidden text-3xl"
-          onClick={() => setIsOpen(!isOpen)}
-        >
-          {isOpen ? <X size={32} /> : <Menu size={32} />}
-        </button>
+      <MaxWidthContainer className="flex justify-between items-center text-[#FAE9D7] md:px-6 px-6  py-10">
+       
         <Link href={"/"}>
           <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold">JobHub</h1>
         </Link>
-        </div>
+
 
         <nav className="hidden md:block">
           <ul className="flex gap-6 md:gap-8 lg:gap-8 text-lg font-extrabold ">
@@ -34,6 +28,16 @@ export default function Navbar() {
             ))}
           </ul>
         </nav>
+
+
+         <div className="  flex items-end gap-4">
+         <button
+          className="md:hidden text-3xl"
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          {isOpen ? <X size={32} /> : <Menu size={32} />}
+        </button>
+        </div>
        
           
 
