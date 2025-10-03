@@ -5,6 +5,11 @@ import { Jobs } from "@/constants/jobs";
 import JobCards from "@/components/shared/job-cards";
 
 
+console.log(Jobs.length);
+
+
+
+
  const categories =["All", "Technology", "Human-Resources", "Health-Care", "Business", "Education", "Engineering"]
 
 export default function BrowseJobs() {
@@ -35,7 +40,7 @@ export default function BrowseJobs() {
         <h1 className="text-3xl md:text-5xl font-extrabold mb-6 text-center">
           Browse Jobs
         </h1>
-        <p className="text-base sm:text-4xl md:text-lg lg:text-xl xl:text-2xl mb-4 max-w-3xl mx-auto text-center">
+        <p className="text-base sm:text-4xl md:text-xl lg:text-xl xl:text-2xl mb-4 max-w-3xl mx-auto text-center">
           Explore thousands of opportunities across different industries.
           Whether you are looking for tech, healthcare, business, or creative
           roles, find the right career path that matches your skills and
@@ -47,7 +52,7 @@ export default function BrowseJobs() {
               key={cat}
               onClick={() => {
                 setSelectedCategory(cat);
-                setCurrentPage(1); // reset to page 1
+                setCurrentPage(1); 
               }}
               className={`px-4 py-2 rounded-full font-semibold ${
                 selectedCategory === cat
@@ -79,7 +84,7 @@ export default function BrowseJobs() {
             Previous
           </button>
 
-          {/* Page Numbers */}
+        
           <div className="flex flex-wrap items-center gap-2">
             {Array.from({ length: totalPages }, (_, i) => (
               <button
@@ -101,7 +106,7 @@ export default function BrowseJobs() {
               setCurrentPage((prev) => Math.min(prev + 1, totalPages))
             }
             disabled={currentPage === totalPages}
-            className="px-4 py-2 rounded bg-gray-200 hover:bg-gray-300 disabled:opacity-50"
+            className="px-4 py-2 rounded text-[#FAE9D7] bg-[#D55053] hover:bg-gray-300 disabled:opacity-50"
           >
             Next
           </button>

@@ -5,7 +5,7 @@ export const Jobs = [
   title: "Software Engineer",
   company: "Tech Corp",
   location: "Lagos, Nigeria",
-  salary: "#200,000 - #500,000",
+  salary: "NGN 200,000 - NGN 500,000",
   description: "Develop and maintain web applications.",
   role: "The Software Engineer will play a key role in designing, developing, testing, and maintaining high-performance applications for both internal and external use. You will collaborate with cross-functional teams including designers, product managers, and QA engineers to deliver scalable and reliable solutions. The role involves analyzing requirements, writing clean and efficient code, fixing bugs, and improving overall system performance. You will also be responsible for staying updated with new frameworks, tools, and industry best practices to ensure the company’s technology remains competitive.",
   requirements: [
@@ -18,7 +18,7 @@ export const Jobs = [
     "Strong communication and teamwork abilities."
   ],
   tags: ["Full-time", "Mid-level"],
-  category: "Technology",
+  categories: "Technology",
 },
 
 {
@@ -26,7 +26,7 @@ export const Jobs = [
   title: "UI/UX Designer",
   company: "Design Studio",
   location: "Abuja, Nigeria",
-  salary: "#150,000 - #400,000",
+  salary: "NGN 150,000 - NGN 400,000",
   description: "Create user-friendly designs for mobile and web.",
   role: "The UI/UX Designer will be responsible for creating visually appealing, user-friendly, and intuitive designs for both mobile and web applications. You will work closely with product managers and developers to translate business requirements into seamless user experiences. This includes conducting user research, developing wireframes, creating prototypes, and testing design solutions to ensure products are functional and engaging. You will also play an important role in maintaining design consistency across projects and staying up to date with current design trends and accessibility standards.",
   requirements: [
@@ -39,7 +39,7 @@ export const Jobs = [
     "Excellent communication and collaboration skills."
   ],
   tags: ["Contract", "Senior"],
-  category: "Technology",
+  categories: "Technology",
 }
 ,
    {
@@ -47,7 +47,7 @@ export const Jobs = [
   title: "Data Analyst",
   company: "Data Insights",
   location: "Port Harcourt, Nigeria",
-  salary: "#180,000 - #450,000",
+  salary: "NGN 180,000 - NGN 450,000",
   description: "Analyze data to help make business decisions.",
   role: "The Data Analyst will be responsible for collecting, organizing, and interpreting data to support strategic decision-making across the business. You will work closely with teams to identify trends, create reports, and generate insights that drive business performance. This role requires strong analytical skills, proficiency with data visualization tools, and the ability to communicate complex information clearly. You will also play a key role in maintaining data quality and integrity.",
   requirements: [
@@ -60,14 +60,14 @@ export const Jobs = [
     "Attention to detail and commitment to data accuracy."
   ],
   tags: ["Full-time", "Entry-level"],
-  category: "Technology",
+  categories: "Technology",
 },
 {
   id: 4,
   title: "Project Manager",
   company: "Business Solutions",
   location: "Kano, Nigeria",
-  salary: "#250,000 - #600,000",
+  salary: "NGN 250,000 - NGN 600,000",
   description: "Oversee project development from start to finish.",
   role: "The Project Manager will be responsible for planning, executing, and delivering projects within scope, budget, and timeline. You will coordinate cross-functional teams, manage resources, and ensure project goals align with business objectives. This role requires excellent leadership, organizational, and problem-solving skills. You will also be responsible for identifying risks, resolving issues, and maintaining communication with stakeholders.",
   requirements: [
@@ -80,14 +80,14 @@ export const Jobs = [
     "Project Management certification (PMP or PRINCE2) is an advantage."
   ],
   tags: ["Full-time", "Mid-level"],
-  category: "Business",
+  categories: "Business",
 },
 {
   id: 5,
   title: "Marketing Specialist",
   company: "Market Pros",
   location: "Ibadan, Nigeria",
-  salary: "#200,000 - #500,000",
+  salary: "NGN 200,000 - NGN 500,000",
   description: "Develop and implement marketing strategies.",
   role: "The Marketing Specialist will be responsible for planning, developing, and executing marketing strategies to promote products and services. You will work across digital and offline channels to increase brand awareness, generate leads, and support sales efforts. This role requires creativity, analytical skills, and the ability to manage multiple campaigns simultaneously. You will also track marketing performance and adjust strategies for maximum impact.",
   requirements: [
@@ -100,15 +100,15 @@ export const Jobs = [
     "Ability to manage time and handle multiple projects."
   ],
   tags: ["Part-time", "Mid-level"],
-  category: "Business",
+  categories: "Business",
 },
 
 {
-  id: 8,
+  id: 6,
   title: "Content Writer",
   company: "Creative Minds",
   location: "Remote",
-  salary: "#100,000 - #250,000",
+  salary: "NGN 100,000 - NGN 250,000",
   description: "Create engaging content for blogs and social media.",
   role: "The Content Writer will be responsible for creating high-quality written materials including blog posts, articles, social media content, and website copy. You will work closely with the marketing team to develop content that aligns with brand voice and engages target audiences. This role requires creativity, research skills, and the ability to meet deadlines while maintaining accuracy and consistency.",
   requirements: [
@@ -121,14 +121,14 @@ export const Jobs = [
     "Portfolio of published work is an advantage."
   ],
   tags: ["Freelance", "Entry-level"],
-  category: "Technology",
+  categories: "Technology",
 },
 {
-  id: 9,
+  id: 7,
   title: "Sales Manager",
   company: "Sales Experts",
   location: "Lagos, Nigeria",
-  salary: "#220,000 - #550,000",
+  salary: "NGN 220,000 - NGN 550,000",
   description: "Lead the sales team to achieve targets.",
   role: "The Sales Manager will be responsible for managing and motivating the sales team to achieve business revenue goals. You will develop sales strategies, set targets, and ensure strong client relationships. This role requires leadership skills, strong business acumen, and the ability to analyze market trends to identify new opportunities.",
   requirements: [
@@ -141,14 +141,14 @@ export const Jobs = [
     "Proven track record of achieving sales targets."
   ],
   tags: ["Full-time", "Mid-level"],
-  category: "Business",
+  categories: "Business",
 },
 {
-  id: 10,
+  id: 8,
   title: "HR Specialist",
   company: "People First",
   location: "Abuja, Nigeria",
-  salary: "#180,000 - #400,000",
+  salary: "NGN 180,000 - NGN 400,000",
   description: "Manage recruitment and employee relations.",
   role: "The HR Specialist will be responsible for managing recruitment, onboarding, employee relations, and HR compliance. You will support staff development, maintain records, and ensure policies align with organizational goals. This role requires strong interpersonal skills, attention to detail, and knowledge of HR practices.",
   requirements: [
@@ -161,14 +161,14 @@ export const Jobs = [
     "HR certification is an added advantage."
   ],
   tags: ["Full-time", "Mid-level"],
-  category: "Business",
+  categories: "Business",
 },
 {
-  id: 11,
+  id: 9,
   title: "Head Teacher",
   company: "Bright Future Academy",
   location: "Abuja, Nigeria",
-  salary: "#180,000 - #250,000",
+  salary: "NGN 180,000 - NGN 250,000",
   description: "Teach and mentor students in assigned subjects.",
   role: "The Head Teacher will be responsible for leading the academic and administrative activities of the school. You will oversee curriculum planning, mentor other teachers, and ensure students receive quality education. This role requires leadership, classroom management, and the ability to create a positive learning environment.",
   requirements: [
@@ -181,14 +181,14 @@ export const Jobs = [
     "Relevant teaching certification is required."
   ],
   tags: ["Full-time", "Mid-level"],
-  category: "Education",
+  categories: "Education",
 },
 {
-  id: 12,
+  id: 10,
   title: "University Lecturer",
   company: "Greenfield University",
   location: "Kaduna, Nigeria",
-  salary: "#300,000 - #600,000",
+  salary: "NGN 300,000 - NGN 600,000",
   description: "Teach courses and conduct academic research.",
   role: "The University Lecturer will be responsible for delivering lectures, conducting seminars, and supervising students’ academic work. You will also be expected to engage in research, publish scholarly articles, and contribute to curriculum development. This role requires deep subject matter expertise, strong communication skills, and a commitment to academic excellence.",
   requirements: [
@@ -201,15 +201,15 @@ export const Jobs = [
     "Experience with online teaching platforms is an advantage."
   ],
   tags: ["Full-time", "Senior"],
-  category: "Education",
+  categories: "Education",
 },
 
 {
-  id: 8,
+  id: 11,
   title: "Social Media Writer",
   company: "Creative Minds",
   location: "Remote",
-  salary: "#100,000 - #250,000",
+  salary: "NGN 100,000 - NGN 250,000",
   description: "Create engaging content for blogs and social media.",
   role: "The Content Writer will be responsible for creating high-quality written materials including blog posts, articles, social media content, and website copy. You will work closely with the marketing team to develop content that aligns with brand voice and engages target audiences. This role requires creativity, research skills, and the ability to meet deadlines while maintaining accuracy and consistency.",
   requirements: [
@@ -222,14 +222,14 @@ export const Jobs = [
     "Portfolio of published work is an advantage."
   ],
   tags: ["Freelance", "Entry-level"],
-  category:"Technology",
+  categories:"Technology",
 },
 {
-  id: 9,
+  id: 12,
   title: "Sales Manager",
   company: "Sales Experts",
   location: "Lagos, Nigeria",
-  salary: "#220,000 - #550,000",
+  salary: "NGN 220,000 - NGN 550,000",
   description: "Lead the sales team to achieve targets.",
   role: "The Sales Manager will be responsible for managing and motivating the sales team to achieve business revenue goals. You will develop sales strategies, set targets, and ensure strong client relationships. This role requires leadership skills, strong business acumen, and the ability to analyze market trends to identify new opportunities.",
   requirements: [
@@ -242,14 +242,14 @@ export const Jobs = [
     "Proven track record of achieving sales targets."
   ],
   tags: ["Full-time", "Mid-level"],
-  category:"Business",
+  categories:"Business",
 },
 {
-  id: 10,
+  id: 13,
   title: "HR Specialist",
   company: "People First",
   location: "Abuja, Nigeria",
-  salary: "#180,000 - #400,000",
+  salary: "NGN 180,000 - NGN 400,000",
   description: "Manage recruitment and employee relations.",
   role: "The HR Specialist will be responsible for managing recruitment, onboarding, employee relations, and HR compliance. You will support staff development, maintain records, and ensure policies align with organizational goals. This role requires strong interpersonal skills, attention to detail, and knowledge of HR practices.",
   requirements: [
@@ -262,14 +262,14 @@ export const Jobs = [
     "HR certification is an added advantage."
   ],
   tags: ["Full-time", "Mid-level"],
-  category:"Business",
+  categories:"Business",
 },
 {
-  id: 11,
+  id: 14,
   title: "Head Teacher",
   company: "Bright Future Academy",
   location: "Abuja, Nigeria",
-  salary: "#180,000 - #250,000",
+  salary: "NGN 180,000 - NGN 250,000",
   description: "Teach and mentor students in assigned subjects.",
   role: "The Head Teacher will be responsible for leading the academic and administrative activities of the school. You will oversee curriculum planning, mentor other teachers, and ensure students receive quality education. This role requires leadership, classroom management, and the ability to create a positive learning environment.",
   requirements: [
@@ -282,14 +282,14 @@ export const Jobs = [
     "Relevant teaching certification is required."
   ],
   tags: ["Full-time", "Mid-level"],
-  category:"Education",
+  categories:"Education",
 },
 {
-  id: 12,
+  id: 15,
   title: "University Lecturer",
   company: "Greenfield University",
   location: "Kaduna, Nigeria",
-  salary: "#300,000 - #600,000",
+  salary: "NGN 300,000 - NGN 600,000",
   description: "Teach courses and conduct academic research.",
   role: "The University Lecturer will be responsible for delivering lectures, conducting seminars, and supervising students’ academic work. You will also be expected to engage in research, publish scholarly articles, and contribute to curriculum development. This role requires deep subject matter expertise, strong communication skills, and a commitment to academic excellence.",
   requirements: [
@@ -302,15 +302,15 @@ export const Jobs = [
     "Experience with online teaching platforms is an advantage."
   ],
   tags: ["Full-time", "Senior"],
-  category:"Education"
+  categories:"Education"
 },
 
  {
-  id: 13,
+  id: 16,
   title: "Operations Manager",
   company: "Global Logistics",
   location: "Lagos, Nigeria",
-  salary: "#400,000 - #750,000",
+  salary: "NGN 400,000 - NGN 750,000",
   description: "Oversee daily operations and improve efficiency.",
   role: "The Operations Manager will be responsible for overseeing day-to-day activities across departments to ensure smooth business operations. You will develop operational strategies, monitor performance, and implement process improvements to increase efficiency. This role requires leadership, problem-solving skills, and the ability to manage resources effectively while maintaining high-quality standards.",
   requirements: [
@@ -323,14 +323,14 @@ export const Jobs = [
     "Ability to work under pressure and meet deadlines."
   ],
   tags: ["Full-time", "Senior"],
-  category:"Business"
+  categories:"Business"
 },
 {
-  id: 14,
+  id: 17,
   title: "Supply Chain Analyst",
   company: "CargoPoint",
   location: "Port Harcourt, Nigeria",
-  salary: "#250,000 - #500,000",
+  salary: "NGN 250,000 - NGN 500,000",
   description: "Optimize supply chain and logistics processes.",
   role: "The Supply Chain Analyst will be responsible for analyzing, designing, and improving supply chain processes to reduce costs and improve efficiency. You will work with suppliers, logistics teams, and internal departments to ensure smooth operations. This role requires strong analytical skills, attention to detail, and knowledge of supply chain best practices.",
   requirements: [
@@ -343,14 +343,14 @@ export const Jobs = [
     "Attention to detail and ability to work with large datasets."
   ],
   tags: ["Full-time", "Mid-level"],
-  category:"Business"
+  categories:"Business"
 },
 {
-  id: 15,
+  id: 18,
   title: "Customer Service Officer",
   company: "SwiftBank",
   location: "Lagos, Nigeria",
-  salary: "#120,000 - #250,000",
+  salary: "NGN 120,000 - NGN 250,000",
   description: "Handle customer inquiries and provide support.",
   role: "The Customer Service Officer will serve as the first point of contact for clients, assisting them with inquiries, transactions, and resolving complaints. You will ensure customer satisfaction by providing accurate information, timely responses, and professional support. This role requires patience, empathy, and strong communication skills.",
   requirements: [
@@ -363,14 +363,14 @@ export const Jobs = [
     "Customer-first attitude with empathy and patience."
   ],
   tags: ["Full-time", "Entry-level"],
-  category:"Business"
+  categories:"Business"
 },
 {
-  id: 16,
+  id: 19,
   title: "Digital Marketer",
   company: "AdVantage Media",
   location: "Remote",
-  salary: "#200,000 - #400,000",
+  salary: "NGN 200,000 - NGN 400,000",
   description: "Run digital campaigns and manage social media.",
   role: "The Digital Marketer will be responsible for developing, implementing, and optimizing online marketing campaigns across social media, email, and digital advertising platforms. You will manage brand presence, analyze performance metrics, and adjust strategies to maximize ROI. This role requires creativity, analytical ability, and knowledge of digital marketing tools.",
   requirements: [
@@ -386,11 +386,11 @@ export const Jobs = [
   categories:"Technology"
 },
 {
-  id: 17,
+  id: 20,
   title: "Graphic Designer",
   company: "DesignHub",
   location: "Abuja, Nigeria",
-  salary: "#150,000 - #300,000",
+  salary: "NGN 150,000 - NGN 300,000",
   description: "Create graphics for digital and print media.",
   role: "The Graphic Designer will be responsible for creating visual concepts, designs, and layouts for digital platforms, print media, and branding materials. You will collaborate with marketing and product teams to ensure brand consistency. This role requires creativity, attention to detail, and proficiency with design software.",
   requirements: [
@@ -406,11 +406,11 @@ export const Jobs = [
   categories:"Technology"
 },
 {
-  id: 18,
+  id: 21,
   title: "Journalist",
   company: "Daily News",
   location: "Lagos, Nigeria",
-  salary: "#180,000 - #350,000",
+  salary: "NGN 180,000 - NGN 350,000",
   description: "Research and report on current events.",
   role: "The Journalist will be responsible for researching, investigating, and writing stories for print, online, or broadcast media. You will conduct interviews, fact-check information, and deliver accurate and engaging reports. This role requires curiosity, excellent writing skills, and the ability to work under tight deadlines.",
   requirements: [
@@ -426,11 +426,11 @@ export const Jobs = [
   categories:"Technology"
 },
 {
-  id: 19,
+  id: 22,
   title: "Legal Officer",
   company: "Justice & Co",
   location: "Abuja, Nigeria",
-  salary: "#250,000 - #500,000",
+  salary: "NGN 250,000 - NGN 500,000",
   description: "Provide legal advice and draft contracts.",
   role: "The Legal Officer will be responsible for providing legal support to the company by drafting contracts, reviewing agreements, and ensuring compliance with laws and regulations. You will advise management on legal risks and represent the company in legal proceedings if required. This role requires attention to detail, research skills, and a strong understanding of corporate law.",
   requirements: [
@@ -446,11 +446,11 @@ export const Jobs = [
   categories:"Human-Resources"
 },
 {
-  id: 20,
+  id: 23,
   title: "Project Manager",
   company: "BuildRight Ltd",
   location: "Lagos, Nigeria",
-  salary: "#350,000 - #700,000",
+  salary: "NGN 350,000 - NGN 700,000",
   description: "Plan and execute construction projects.",
   role: "The Project Manager will be responsible for planning, coordinating, and delivering construction projects on time and within budget. You will manage contractors, monitor progress, and ensure quality standards are met. This role requires leadership, organizational skills, and technical knowledge of construction processes.",
   requirements: [
@@ -466,11 +466,11 @@ export const Jobs = [
   categories:"Business"
 },
 {
-  id: 21,
+  id: 24,
   title: "Civil Engineer",
   company: "Structura Ltd",
   location: "Abuja, Nigeria",
-  salary: "#300,000 - #600,000",
+  salary: "NGN 300,000 - NGN 00,000",
   description: "Design and oversee building projects.",
   role: "The Civil Engineer will be responsible for planning, designing, and supervising construction projects such as roads, bridges, and buildings. You will ensure compliance with safety standards, manage site operations, and provide technical guidance. This role requires engineering expertise, problem-solving skills, and attention to detail.",
   requirements: [
@@ -486,11 +486,11 @@ export const Jobs = [
   categories:"Engineering"
 },
 {
-  id: 22,
+  id: 25,
   title: "Mechanical Engineer",
   company: "MechaWorks",
   location: "Lagos, Nigeria",
-  salary: "#280,000 - #550,000",
+  salary: "NGN 280,000 - NGN 550,000",
   description: "Maintain and develop mechanical systems.",
   role: "The Mechanical Engineer will be responsible for designing, developing, and maintaining mechanical systems and machinery. You will troubleshoot technical issues, improve equipment efficiency, and ensure safety standards are met. This role requires technical expertise, creativity, and strong problem-solving abilities.",
   requirements: [
@@ -506,11 +506,11 @@ export const Jobs = [
   categories:"Engineering"
 },
 {
-  id: 23,
+  id: 26,
   title: "Electrical Engineer",
   company: "VoltPower",
   location: "Port Harcourt, Nigeria",
-  salary: "#300,000 - #600,000",
+  salary: "NGN300,000 - NGN600,000",
   description: "Install and maintain electrical systems.",
   role: "The Electrical Engineer will be responsible for designing, installing, and maintaining electrical systems for residential, commercial, and industrial projects. You will ensure compliance with safety standards and provide technical support for electrical issues. This role requires strong technical knowledge and practical problem-solving abilities.",
   requirements: [
@@ -526,11 +526,11 @@ export const Jobs = [
   categories:"Engineering"
 },
 {
-  id: 24,
+  id: 27,
   title: "Warehouse Supervisor",
   company: "LogiMart",
   location: "Lagos, Nigeria",
-  salary: "#180,000 - #350,000",
+  salary: "NGN 180,000 - NGN 350,000",
   description: "Supervise warehouse staff and inventory.",
   role: "The Warehouse Supervisor will be responsible for overseeing warehouse operations, including inventory management, staff supervision, and compliance with safety standards. You will ensure goods are stored and dispatched efficiently while maintaining accurate records. This role requires leadership, organization, and problem-solving skills.",
   requirements: [
@@ -546,11 +546,11 @@ export const Jobs = [
   categories:"Human-Resources"
 },
 {
-  id: 25,
+  id: 28,
   title: "Driver",
   company: "Express Delivery",
   location: "Abuja, Nigeria",
-  salary: "#80,000 - #150,000",
+  salary: "NGN 80,000 - NGN 150,000",
   description: "Deliver goods safely and on time.",
   role: "The Driver will be responsible for transporting goods and packages safely and promptly to designated locations. You will ensure vehicle maintenance, compliance with traffic rules, and proper handling of deliveries. This role requires reliability, time management, and a strong sense of responsibility.",
   requirements: [
@@ -566,11 +566,11 @@ export const Jobs = [
   categories:"Business"
 },
 {
-  id: 26,
+  id: 29,
   title: "Security Officer",
   company: "SafeGuard Ltd",
   location: "Lagos, Nigeria",
-  salary: "#100,000 - #200,000",
+  salary: "NGN 100,000 - NGN 200,000",
   description: "Ensure the safety of property and staff.",
   role: "The Security Officer will be responsible for protecting company property, monitoring premises, and ensuring the safety of staff and visitors. You will conduct patrols, respond to security incidents, and report suspicious activities. This role requires vigilance, physical fitness, and honesty.",
   requirements: [
@@ -586,11 +586,11 @@ export const Jobs = [
   categories:"Business"
 },
 {
-  id: 27,
+  id: 30,
   title: "Chef",
   company: "Golden Spoon",
   location: "Abuja, Nigeria",
-  salary: "#150,000 - #300,000",
+  salary: "NGN 150,000 - NGN 300,000",
   description: "Prepare meals and manage kitchen operations.",
   role: "The Chef will be responsible for preparing meals, designing menus, and managing kitchen staff. You will ensure food quality, hygiene, and customer satisfaction. This role requires creativity, leadership, and strong culinary skills.",
   requirements: [
@@ -606,11 +606,11 @@ export const Jobs = [
   categories:"Human-Resources"
 },
 {
-  id: 28,
+  id: 31,
   title: "Hotel Manager",
   company: "Royal Suites",
   location: "Lagos, Nigeria",
-  salary: "#250,000 - #500,000",
+  salary: "NGN 250,000 - NGN 500,000",
   description: "Oversee hotel operations and guest services.",
   role: "The Hotel Manager will be responsible for overseeing the daily operations of the hotel, including staff management, guest satisfaction, and financial performance. You will ensure service standards are maintained and resolve operational issues promptly. This role requires leadership, organization, and customer service excellence.",
   requirements: [
@@ -626,11 +626,11 @@ export const Jobs = [
   categories:"Human-Resources"
 },
 {
-  id: 29,
+  id: 32,
   title: "Sales Executive",
   company: "MarketPlus",
   location: "Port Harcourt, Nigeria",
-  salary: "#180,000 - #350,000",
+  salary: "NGN 180,000 - NGN 350,000",
   description: "Drive sales and build client relationships.",
   role: "The Sales Executive will be responsible for generating leads, pitching products, and closing sales deals. You will build strong client relationships and contribute to achieving revenue targets. This role requires excellent communication, persuasion, and time-management skills.",
   requirements: [
@@ -646,11 +646,11 @@ export const Jobs = [
   categories:"Business"
 },
 {
-  id: 30,
+  id: 33,
   title: "Retail Manager",
   company: "StyleMart",
   location: "Lagos, Nigeria",
-  salary: "#200,000 - #400,000",
+  salary: "NGN 200,000 - NGN 400,000",
   description: "Manage store operations and staff.",
   role: "The Retail Manager will be responsible for overseeing daily store operations, managing staff, and ensuring excellent customer service. You will monitor sales performance, maintain inventory, and implement promotional strategies. This role requires leadership, organizational skills, and a strong focus on customer satisfaction.",
   requirements: [
@@ -666,11 +666,11 @@ export const Jobs = [
   categories:"Business"
 },
 {
-  id: 31,
+  id: 34,
   title: "Research Scientist",
   company: "BioLab",
   location: "Ibadan, Nigeria",
-  salary: "#300,000 - #600,000",
+  salary: "NGN 300,000 - NGN 600,000",
   description: "Conduct experiments and publish findings.",
   role: "The Research Scientist will be responsible for conducting experiments, analyzing results, and publishing research findings. You will contribute to the development of innovative solutions in biotechnology and related fields. This role requires advanced research skills, attention to detail, and academic excellence.",
   requirements: [
@@ -686,11 +686,11 @@ export const Jobs = [
   categories:"Technology"
 },
 {
-  id: 32,
+  id: 35,
   title: "Event Planner",
   company: "Celebrations Ltd",
   location: "Abuja, Nigeria",
-  salary: "#180,000 - #350,000",
+  salary: "NGN 180,000 - NGN 350,000",
   description: "Plan and coordinate events.",
   role: "The Event Planner will be responsible for organizing and managing events such as conferences, weddings, and corporate functions. You will handle budgeting, vendor negotiations, and ensure smooth execution of events. This role requires creativity, organization, and strong interpersonal skills.",
   requirements: [
@@ -706,11 +706,11 @@ export const Jobs = [
   categories:"Marketing"
 },
 {
-  id: 33,
+  id: 36,
   title: "Fitness Trainer",
   company: "FitLife Gym",
   location: "Lagos, Nigeria",
-  salary: "#120,000 - #250,000",
+  salary: "NGN 120,000 - NGN 250,000",
   description: "Provide fitness training and wellness advice.",
   role: "The Fitness Trainer will be responsible for designing fitness programs, training clients, and promoting healthy lifestyles. You will conduct fitness assessments, monitor progress, and ensure safety during workouts. This role requires energy, motivation skills, and fitness expertise.",
   requirements: [
@@ -726,11 +726,11 @@ export const Jobs = [
   categories:"Business"
 },
 {
-  id: 34,
+  id: 37,
   title: "Pharmacist",
   company: "MediCare Pharmacy",
   location: "Lagos, Nigeria",
-  salary: "#250,000 - #500,000",
+  salary: "NGN 250,000 - NGN 500,000",
   description: "Dispense medications and advise patients.",
   role: "The Pharmacist will be responsible for dispensing medications, counseling patients on drug use, and ensuring regulatory compliance. You will manage prescriptions, monitor inventory, and provide healthcare advice. This role requires accuracy, attention to detail, and strong medical knowledge.",
   requirements: [
@@ -746,11 +746,11 @@ export const Jobs = [
   categories:"Health-Care"
 },
 {
-  id: 35,
+  id: 38,
   title: "Nurse",
   company: "HealthPlus Clinic",
   location: "Abuja, Nigeria",
-  salary: "#180,000 - #350,000",
+  salary: "NGN 180,000 - NGN 350,000",
   description: "Provide patient care and support doctors.",
   role: "The Nurse will be responsible for providing care to patients, administering medications, and assisting doctors with treatments. You will monitor patient conditions, record observations, and ensure comfort and safety. This role requires compassion, attention to detail, and medical knowledge.",
   requirements: [
@@ -766,11 +766,11 @@ export const Jobs = [
   categories:"Health-Care"
 },
 {
-  id: 36,
+  id: 39,
   title: "Doctor",
   company: "City Hospital",
   location: "Lagos, Nigeria",
-  salary: "#400,000 - #900,000",
+  salary: "NGN 400,000 - NGN 900,000",
   description: "Diagnose and treat patients.",
   role: "The Doctor will be responsible for diagnosing illnesses, prescribing treatments, and providing medical care to patients. You will conduct examinations, order tests, and collaborate with healthcare staff to ensure quality care. This role requires extensive medical knowledge, problem-solving, and compassion.",
   requirements: [
@@ -786,11 +786,11 @@ export const Jobs = [
   categories:"Health-Care"
 },
 {
-  id: 37,
+  id: 40,
   title: "Dentist",
   company: "Smile Dental Care",
   location: "Abuja, Nigeria",
-  salary: "#300,000 - #600,000",
+  salary: "NGN 300,000 - NGN 600,000",
   description: "Provide dental treatment and oral care.",
   role: "The Dentist will be responsible for diagnosing and treating dental issues, performing procedures, and advising patients on oral hygiene. You will manage dental staff and ensure compliance with health standards. This role requires precision, empathy, and expertise in dentistry.",
   requirements: [
@@ -806,11 +806,11 @@ export const Jobs = [
   categories:"Health-Care"
 },
 {
-  id: 38,
+  id: 41,
   title: "Teacher",
   company: "Bright Future School",
   location: "Lagos, Nigeria",
-  salary: "#120,000 - #250,000",
+  salary: "NGN 120,000 - NGN 250,000",
   description: "Teach students and prepare lesson plans.",
   role: "The Teacher will be responsible for developing lesson plans, teaching subjects, and assessing student progress. You will foster a positive learning environment and support students in achieving academic success. This role requires patience, creativity, and dedication.",
   requirements: [
@@ -826,11 +826,11 @@ export const Jobs = [
   categories:"Education"
 },
 {
-  id: 39,
+  id: 42,
   title: "Lecturer",
   company: "University of Lagos",
   location: "Lagos, Nigeria",
-  salary: "#300,000 - #600,000",
+  salary: "NGN 300,000 - NGN 600,000",
   description: "Teach university students and conduct research.",
   role: "The Lecturer will be responsible for teaching courses, supervising research, and contributing to academic publications. You will mentor students, prepare course materials, and participate in departmental activities. This role requires academic excellence, research skills, and strong communication.",
   requirements: [
@@ -846,11 +846,11 @@ export const Jobs = [
   categories:"Education"
 },
 {
-  id: 40,
+  id: 43,
   title: "Account Manager",
   company: "ClientConnect",
   location: "Abuja, Nigeria",
-  salary: "#200,000 - #450,000",
+  salary: "NGN 200,000 - NGN 450,000",
   description: "Manage client relationships and sales.",
   role: "The Account Manager will be responsible for building and maintaining strong client relationships, managing accounts, and driving sales growth. You will serve as the primary point of contact for clients and ensure satisfaction with company services. This role requires communication, negotiation, and organizational skills.",
   requirements: [
@@ -866,11 +866,11 @@ export const Jobs = [
   categories:"Human-Resources"
 },
 {
-  id: 41,
+  id: 44,
   title: "Animator",
   company: "Creative Studio",
   location: "Lagos, Nigeria",
-  salary: "#180,000 - #350,000",
+  salary: "NGN 180,000 - NGN 350,000",
   description: "Create animations for films and ads.",
   role: "The Animator will be responsible for creating animated content for films, advertisements, and digital platforms. You will collaborate with creative teams to develop engaging visual stories. This role requires creativity, artistic ability, and proficiency in animation software.",
   requirements: [
@@ -886,11 +886,11 @@ export const Jobs = [
   categories:"Technology"
 },
 {
-  id: 42,
+  id: 45,
   title: "Videographer",
   company: "Vision Media",
   location: "Abuja, Nigeria",
-  salary: "#180,000 - #350,000",
+  salary: "NGN 180,000 - NGN 350,000",
   description: "Shoot and edit videos for clients.",
   role: "The Videographer will be responsible for filming, editing, and producing video content for marketing, events, and digital platforms. You will ensure high-quality production and collaborate with creative teams. This role requires technical skills, creativity, and storytelling ability.",
   requirements: [
@@ -906,11 +906,11 @@ export const Jobs = [
   categories:"Technology"
 },
 {
-  id: 43,
+  id: 46,
   title: "Photographer",
   company: "Lens Studio",
   location: "Lagos, Nigeria",
-  salary: "#150,000 - #300,000",
+  salary: "NGN 150,000 - NGN 300,000",
   description: "Capture and edit professional photographs.",
   role: "The Photographer will be responsible for capturing, editing, and delivering high-quality images for events, products, and campaigns. You will collaborate with clients to understand requirements and ensure satisfaction. This role requires creativity, technical expertise, and attention to detail.",
   requirements: [
@@ -926,11 +926,11 @@ export const Jobs = [
   categories:"Technology"
 },
 {
-  id: 44,
+  id: 47,
   title: "HR Manager",
   company: "PeopleFirst Ltd",
   location: "Abuja, Nigeria",
-  salary: "#300,000 - #600,000",
+  salary: "NGN 300,000 - NGN 600,000",
   description: "Manage recruitment and employee relations.",
   role: "The HR Manager will be responsible for overseeing all aspects of human resource management, including recruitment, training, performance management, and employee relations. You will develop HR policies, resolve conflicts, and ensure compliance with labor laws. This role requires leadership, communication, and problem-solving skills.",
   requirements: [
@@ -946,11 +946,11 @@ export const Jobs = [
   categories:"Human-Resources"
 },
 {
-  id: 45,
+  id: 48,
   title: "IT Support Specialist",
   company: "TechAssist",
   location: "Lagos, Nigeria",
-  salary: "#180,000 - #350,000",
+  salary: "NGN 180,000 - NGN 350,000",
   description: "Provide IT support and troubleshoot issues.",
   role: "The IT Support Specialist will be responsible for diagnosing and resolving hardware and software issues, supporting staff with IT tools, and ensuring systems run smoothly. You will provide technical assistance, maintain IT infrastructure, and escalate complex issues when needed. This role requires technical knowledge, patience, and problem-solving skills.",
   requirements: [
@@ -966,11 +966,11 @@ export const Jobs = [
   categories:"Technology"
 },
 {
-  id: 46,
+  id: 49,
   title: "Web Developer",
   company: "CodeCraft",
   location: "Remote",
-  salary: "#250,000 - #500,000",
+  salary: "NGN 250,000 - NGN 500,000",
   description: "Build and maintain websites.",
   role: "The Web Developer will be responsible for developing, maintaining, and optimizing websites for clients and internal projects. You will write clean, efficient code and ensure websites are responsive, user-friendly, and secure. This role requires technical expertise, problem-solving skills, and attention to detail.",
   requirements: [
@@ -986,11 +986,11 @@ export const Jobs = [
   categories:"Technology"
 },
 {
-  id: 47,
+  id: 50,
   title: "Data Analyst",
   company: "Insight Analytics",
   location: "Lagos, Nigeria",
-  salary: "#250,000 - #500,000",
+  salary: "NGN 250,000 - NGN 500,000",
   description: "Analyze data and provide insights.",
   role: "The Data Analyst will be responsible for collecting, analyzing, and interpreting data to support decision-making and business growth. You will develop reports, dashboards, and models to identify trends and provide actionable insights. This role requires analytical skills, attention to detail, and proficiency with data tools.",
   requirements: [
@@ -1005,66 +1005,8 @@ export const Jobs = [
   tags: ["Full-time", "Mid-level"],
   categories:"Technology"
 },
-{
-  id: 48,
-  title: "UI/UX Designer",
-  company: "CreativeFlow",
-  location: "Remote",
-  salary: "#220,000 - #450,000",
-  description: "Design user interfaces and improve user experience.",
-  role: "The UI/UX Designer will be responsible for creating intuitive and engaging user interfaces for web and mobile applications. You will conduct user research, design wireframes, and collaborate with developers to implement designs. This role requires creativity, technical skills, and user-centered thinking.",
-  requirements: [
-    "Bachelor’s degree in Design, Computer Science, or related field.",
-    "Proven experience in UI/UX design with portfolio.",
-    "Proficiency in design tools such as Figma, Sketch, or Adobe XD.",
-    "Ability to create wireframes, prototypes, and user flows.",
-    "Strong understanding of user-centered design principles.",
-    "Good communication and collaboration skills.",
-    "Attention to detail and creativity."
-  ],
-  tags: ["Remote", "Mid-level"],
-  categories:"Technology"
-},
-{
-  id: 49,
-  title: "Cybersecurity Analyst",
-  company: "SecureNet",
-  location: "Abuja, Nigeria",
-  salary: "#300,000 - #600,000",
-  description: "Protect systems from cyber threats.",
-  role: "The Cybersecurity Analyst will be responsible for monitoring networks, detecting security breaches, and implementing measures to protect company data. You will respond to incidents, conduct security assessments, and ensure compliance with cybersecurity standards. This role requires technical expertise, vigilance, and problem-solving ability.",
-  requirements: [
-    "Bachelor’s degree in Computer Science, Cybersecurity, or related field.",
-    "Proven experience in cybersecurity roles.",
-    "Knowledge of firewalls, intrusion detection, and security protocols.",
-    "Ability to detect and respond to security incidents.",
-    "Strong analytical and problem-solving skills.",
-    "Good communication and teamwork abilities.",
-    "Relevant cybersecurity certifications (CEH, CISSP, CompTIA Security+) are an advantage."
-  ],
-  tags: ["Full-time", "Mid-level"],
-  categories:"Technology"
-},
-{
-  id: 50,
-  title: "Blockchain Developer",
-  company: "CryptoTech",
-  location: "Remote",
-  salary: "#400,000 - #800,000",
-  description: "Develop blockchain applications and smart contracts.",
-  role: "The Blockchain Developer will be responsible for building decentralized applications, writing smart contracts, and ensuring security of blockchain-based systems. You will collaborate with developers and product teams to integrate blockchain solutions. This role requires strong coding skills, problem-solving ability, and knowledge of blockchain technologies.",
-  requirements: [
-    "Bachelor’s degree in Computer Science or related field.",
-    "Proven experience in blockchain development.",
-    "Proficiency in Solidity, Ethereum, and smart contract development.",
-    "Knowledge of cryptography and blockchain protocols.",
-    "Experience with decentralized apps (dApps).",
-    "Strong problem-solving and debugging skills.",
-    "Ability to work in remote, collaborative teams."
-  ],
-  tags: ["Remote", "Senior"],
-  categories:"Technology"
-},
+
+
 
 
    

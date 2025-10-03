@@ -90,7 +90,7 @@ export default function AboutPage() {
           Explore opportunities today and let’s shape the future of work
           together.
         </p>
-        <Link className href="/browse-jobs">
+        <Link href="/browse-jobs">
         
          <Button  className="bg-[#D55053] text-[#FAE9D7] px-6 py-3 rounded font-semibold hover:bg-[#f1c095] transition">
             Browse Jobs

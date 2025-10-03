@@ -7,7 +7,8 @@ export default function ApplyPage() {
     name: "",
     email: "",
     resume: "",
-    coverLetter: ""
+    coverLetter: "",
+    jobTitle: ""
   });
 
   const handleChange = (e) => {
@@ -42,6 +43,14 @@ export default function ApplyPage() {
           className="w-full border p-3 rounded"
           required
         />
+        <input
+         type="text"
+         name="jobTitle"
+         placeholder="Job Position" 
+         value={formData.jobTitle}
+         onChange={handleChange}
+          className="w-full border p-3 rounded"
+          required/>
         <input
           type="email"
           name="email"

@@ -29,18 +29,18 @@ export default function Contact() {
               <input
                 type="text"
                 placeholder="Your Name"
-                className="mt-1 w-full rounded-lg border-gray-300 dark:border-gray-700 dark:bg-gray-800 dark:text-white focus:ring-pink-500 focus:border-pink-500"
+                className=" p-3 mt-2 w-full rounded-lg border border-gray-400 dark:border-gray-700 dark:bg-gray-800 dark:text-white focus:ring-pink-500 focus:border-pink-500"
               />
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 dark:text-gray-300">
+              <label className="block text-sm font-medium  text-gray-700 dark:text-gray-300">
                 Email
               </label>
               <input
                 type="email"
                 placeholder="you@example.com"
-                className="mt-1 w-full rounded-lg border-gray-300 dark:border-gray-700 dark:bg-gray-800 dark:text-white focus:ring-pink-500 focus:border-pink-500"
+                className=" p-3 mt-1 w-full rounded-lg border border-gray-400 dark:border-gray-700 dark:bg-gray-800 dark:text-white focus:ring-pink-500 focus:border-pink-500"
               />
             </div>
 
@@ -51,7 +51,7 @@ export default function Contact() {
               <textarea
                 rows="4"
                 placeholder="Type your message..."
-                className="mt-1 w-full rounded-lg border-gray-300 dark:border-gray-700 dark:bg-gray-800 dark:text-white focus:ring-pink-500 focus:border-pink-500"
+                className=" border mt-1 w-full rounded-lg border-gray-400 dark:border-gray-700 dark:bg-gray-800 dark:text-white p-3 focus:ring-pink-500 focus:border-pink-500"
               />
             </div>
 

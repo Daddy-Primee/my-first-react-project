@@ -3,6 +3,7 @@ import StatsSection from "@/home-page/statsSection";
 import FeaturedJobs from "@/home-page/featuredJobs";
 
 
+
 export default function page() {
   return (
     <main>

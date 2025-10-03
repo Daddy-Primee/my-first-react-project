@@ -16,11 +16,11 @@ export default function Page({ params }) {
         <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100">
           {job.title}
         </h1>
-        <p className="text-gray-500 dark:text-gray-400">
+        <p className="mt-4 text-gray-500 dark:text-gray-400">
           {job.company} • {job.location}
         </p>
       </div>
-      <span className="px-3 py-1 text-sm rounded-full bg-green-100 text-green-700">
+      <span className=" mt-4 px-3 py-1 text-sm rounded-full bg-green-100 text-green-700">
         Senior
       </span>
 
